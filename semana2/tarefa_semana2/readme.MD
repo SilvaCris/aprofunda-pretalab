@@ -130,8 +130,10 @@ Instale as depedências com o comando:
 - npm install
 
 As principais dependências do projeto são:
- - express: Framework para criação de servidores web.
- - nodemon: Ferramenta que ajuda no desenvolvimento ao reiniciar automaticamente o servidor quando há mudanças no código.
+ - **express**: Framework para criação de servidores web.
+ - **nodemon**: Ferramenta que ajuda no desenvolvimento ao reiniciar automaticamente o servidor quando há mudanças no código.
+ - **cors**: Middleware que permite que o servidor defina quais origens podem acessar seus recursos.
+- **uuid**: Biblioteca para gerar identificadores únicos universais (UUIDs)
 
 Para rodar o servidor localmente, use o comando: 
 - npm start
