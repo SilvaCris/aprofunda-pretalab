@@ -1,17 +1,15 @@
 
 # Projeto Blog Refatorado 🛠️📝 
 
-Este projeto contém a versão refatorada do blog desenvolvido durante a Semana 2 do projeto **Aprofunda**.
+Este projeto contém a versão refatorada do blog desenvolvido durante a Semana 3 do projeto **Aprofunda**.
 
-## Funcionalidades
+## Aprendizados da semana
 
-A API possui as seguintes funcionalidades:
+ - Durante esta semana, o foco foi aprimorar o código original do blog, aplicando boas práticas de desenvolvimento, modularização e organização de arquivos. A refatoração visa melhorar a manutenibilidade, legibilidade e escalabilidade do código.
 
-1. **Criar um texto**: Permite a criação de uma novo texto com conteúdo e formato especificados.
-2. **Listar todos os textos**: Retorna uma lista com todos os textos criadas.
-3. **Listar um texto específico**: Retorna os detalhes de um texto específico com base no ID fornecido.
-4. **Editar um texto específico**: Permite a edição do conteúdo e/ou formato de um texto específico.
-5. **Excluir um texto específico**: Remove um texto da lista com base no ID fornecido.
+ - O código que anteriormente estava concentrado em um único arquivo foi reorganizado em módulos separados, seguindo o princípio de responsabilidade única.Uma boa organização de pastas e arquivos melhora a navegabilidade do projeto e ajuda outros desenvolvedores a se orientarem mais rapidamente no código.
+
+ - As funcionalidades foram separadas em pastas específicas, facilitando a localização e o entendimento de cada parte do projeto. A divisão de funcionalidades em arquivos distintos facilita a manutenção e permite uma evolução mais organizada do projeto.
 
 ## Endpoints
 
@@ -177,12 +175,6 @@ Você pode usar ferramentas como Postman ou Insomnia para testar os endpoints.
 ![alt text](images/delete-text.png)
 
 
-## Aprendizados da semana
 
- - Durante esta semana, o foco foi aprimorar o código original do blog, aplicando boas práticas de desenvolvimento, modularização e organização de arquivos. A refatoração visa melhorar a manutenibilidade, legibilidade e escalabilidade do código.
-
- - O código que anteriormente estava concentrado em um único arquivo foi reorganizado em módulos separados, seguindo o princípio de responsabilidade única.Uma boa organização de pastas e arquivos melhora a navegabilidade do projeto e ajuda outros desenvolvedores a se orientarem mais rapidamente no código.
-
- - As funcionalidades foram separadas em pastas específicas, facilitando a localização e o entendimento de cada parte do projeto. A divisão de funcionalidades em arquivos distintos facilita a manutenção e permite uma evolução mais organizada do projeto.
 
 
