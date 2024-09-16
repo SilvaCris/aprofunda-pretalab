@@ -24,9 +24,9 @@ const updatedText = (req, res) => {
   const { id } = req.params
   const data = req.body
 
-    const UpdatedText = TextService.updatedTextById(id, data)
+    const updatedText = TextService.updatedTextById(id, data)
 
-    if (!UpdatedText) {
+    if (!updatedText) {
       return res.status(404).json({ message: `Texto com o ${id} não encontrado` })
 
     }
