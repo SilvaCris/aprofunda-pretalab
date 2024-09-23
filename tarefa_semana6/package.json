@@ -1,0 +1,22 @@
+{
+  "name": "tarefa_semana_6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn src/interface/index.ts",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.5",
+    "@types/uuid": "^10.0.0",
+    "express": "^4.21.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.2",
+    "uuid": "^10.0.0"
+  }
+}
