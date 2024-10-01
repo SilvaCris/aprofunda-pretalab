@@ -1,6 +1,6 @@
 # Biblioteca da Cris 📚📖
 
-Este é um projeto que faz parte do programa **Aprofunda Pretalab**, cujo objetivo é desenvolver uma aplicação de gerenciamento de uma biblioteca. O projeto permite o cadastro, atualização, listagem e remoção de livros, facilitando o controle e organização de uma coleção literária.
+O objetivo desse projeto é desenvolver uma aplicação de gerenciamento de uma biblioteca. O projeto permite o cadastro, atualização, listagem e remoção de livros, facilitando o controle e organização de uma coleção literária. Este projeto segue os princípios da Clean Architecture, que separa as responsabilidades da aplicação em camadas. Isso garante que a lógica de negócios seja independente de frameworks e bibliotecas externas, facilitando a manutenção, escalabilidade e teste do sistema. 
 
 
 
@@ -44,9 +44,9 @@ biblioteca-da-cris/
 
 
 
+![alt text](image-1.png)
 
 
-![alt text](image.png)
 
 
 
