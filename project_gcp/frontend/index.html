@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tradutor de Poemas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tradutor de Poemas</h1>
+    
+    <div class="input-section">
+      <label for="textInput">Texto em Inglês, Espanhol ou Francês:</label>
+      <textarea id="textInput" placeholder="Digite o poema para traduzir..." rows="4"></textarea>
+    </div>
+    
+    <div class="language-section">
+      <label for="sourceLanguage">Idioma de Origem:</label>
+      <select id="sourceLanguage">
+        <option value="en">Inglês</option>
+        <option value="es">Espanhol</option>
+        <option value="fr">Francês</option>
+      </select>
+    </div>
+
+    <button onclick="translate()" class="translate-button">Traduzir para Português</button>
+
+    <div class="output-section">
+      <h2>Tradução:</h2>
+      <p id="output">A tradução será exibida aqui.</p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
